@@ -50,7 +50,7 @@
           <className>java.util.Date</className>
           <factAlias>TestPojoClass</factAlias>
           <expressionAlias>dateVal</expressionAlias>
-          <columnWidth>540.0</columnWidth>
+          <columnWidth>314.0</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -72,7 +72,7 @@
           <className>java.lang.String</className>
           <factAlias>TestPojoClass</factAlias>
           <expressionAlias>strVal</expressionAlias>
-          <columnWidth>540.0</columnWidth>
+          <columnWidth>314.0</columnWidth>
         </FactMapping>
       </factMappings>
       <type>RULE</type>
