@@ -6,12 +6,33 @@ package com.deepika.date_field_testing;
 
 public class TestPojoClass implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public TestPojoClass() {
-    }
+	private java.lang.String strVal;
+	private java.util.Date dateVal;
 
+	public TestPojoClass() {
+	}
 
+	public java.lang.String getStrVal() {
+		return this.strVal;
+	}
 
+	public void setStrVal(java.lang.String strVal) {
+		this.strVal = strVal;
+	}
+
+	public java.util.Date getDateVal() {
+		return this.dateVal;
+	}
+
+	public void setDateVal(java.util.Date dateVal) {
+		this.dateVal = dateVal;
+	}
+
+	public TestPojoClass(java.lang.String strVal, java.util.Date dateVal) {
+		this.strVal = strVal;
+		this.dateVal = dateVal;
+	}
 
 }
