@@ -19,7 +19,7 @@ public class data_object1 implements java.io.Serializable {
 
 	private int date_day;
 
-	public data_object() {
+	public data_object1() {
 	}
 
 	public java.util.Date getStart_date() {
